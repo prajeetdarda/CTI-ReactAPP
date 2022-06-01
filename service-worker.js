@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CTI-ReactAPP/precache-manifest.c452bdf2289bf6a08211c1e5b969b201.js"
+  "/CTI-ReactAPP/tlapp/precache-manifest.acb6df1653163fdec3f468e2c1ae6db8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/CTI-ReactAPP/index.html", {
+workbox.routing.registerNavigationRoute("/CTI-ReactAPP/tlapp/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
